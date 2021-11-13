@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent implements OnInit {
   title = 'The Dating app';
-  users: any; //specifying that the retrieval is and type
+  users: any;                                   //specifying that the retrieval is and type
 
   constructor(private http: HttpClient) {}
   
